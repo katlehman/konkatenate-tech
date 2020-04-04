@@ -1,0 +1,274 @@
+/***** BASE STYLES *****/
+body {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+  color: #9b9b9b;
+  font-family: 'franklin-gothic-urw-cond', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+  background-color: #093b3d;
+  background-size: cover;
+  height: 300px;
+}
+
+header h1 {
+  color:#009da3;
+  font-family: jubilat, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 0px;
+  padding: 5px;
+}
+
+nav {
+  float:right;
+  padding: 5px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+nav ul li a {
+  color: #bffff8;
+  font-family: 'franklin-gothic-ext-comp-urw', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
+header ul {
+  float:left;
+  padding: 5px;
+}
+
+header ul li {
+  display:inline-block;
+  padding: 10px;
+}
+
+header p {
+  clear: both;
+  color: white;
+  font-family: 'franklin-gothic-urw-cond', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 5px;
+  width: 1000px;
+}
+
+header p a {
+  color: #bffff8;
+  outline: none;
+  text-transform: none;
+  text-decoration: none;
+}
+
+/***** MAIN *****/
+
+main {
+  background-color: #bffff8;
+  background-size: cover;
+}
+
+/***** SUMMARY *****/
+
+#summary .full-width {
+  clear:both;
+  padding: 10px 0;
+}
+
+#summary h2 {
+  color: #009da3;
+  font-family: 'franklin-gothic-urw', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+}
+
+#summary p {
+  color: #4d4d4d;
+  font-family: 'franklin-gothic-urw-cond', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+/***** EDUCATION *****/
+
+#education .full-width {
+  clear: both;
+  padding: 10px 0;
+}
+
+#education h2 {
+  color: #009da3;
+  font-family: 'franklin-gothic-urw', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+}
+
+#education p {
+  color: #4d4d4d;
+  font-family: 'franklin-gothic-urw-cond', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+/***** SKILLS *****/
+
+#skills .full-width {
+  clear: both;
+  padding: 10px 0;
+}
+
+#skills h2 {
+  color: #009da3;
+  font-family: 'franklin-gothic-urw', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+}
+
+#skills ul {
+  list-style: square;
+}
+
+#skills ul li {
+  color: #4d4d4d;
+  font-family: 'franklin-gothic-urw-cond', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 5px;
+}
+
+/***** EXPERIENCE *****/
+
+#experience .full-width {
+  clear: both;
+  padding: 10px 0;
+}
+
+#experience h2 {
+  color: #009da3;
+  font-family: 'franklin-gothic-urw', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+}
+
+#experience h3 {
+  color: #093b3d;
+  font-family: 'franklin-gothic-ext-comp-urw', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+}
+#experience ul {
+  list-style: square;
+}
+
+#experience ul li {
+  color: #4d4d4d;
+  font-family: 'franklin-gothic-urw-cond', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 5px;
+}
+
+/***** CREATIVE *****/
+
+#creatvie .full-width {
+  clear: both;
+  padding: 10px 0;
+}
+
+#creative h2 {
+  color: #009da3;
+  font-family: 'franklin-gothic-urw', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+}
+
+#creative p {
+  color: #4d4d4d;
+  font-family: 'franklin-gothic-urw-cond', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+/***** VOLUNTEER *****/
+
+#volunteer .full-width {
+  clear: both;
+  padding: 10px 0;
+}
+
+#volunteer h2 {
+  color: #009da3;
+  font-family: 'franklin-gothic-urw', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+}
+
+#volunteer p {
+  color: #4d4d4d;
+  font-family: 'franklin-gothic-urw-cond', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
